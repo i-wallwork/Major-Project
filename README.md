@@ -1,4 +1,8 @@
 # Major-Project
 
 ### Project Aim
-This project aims to produce Machine Learning models to analyse TCGA-HNSC data, ultimately to identify and rank proteins and their features, in accordance with how indicative they are of HNSCC development and progression. This research should contribute towards the fields of medical early detection and risk stratification by providing a base from which clinical biomarkers can be developed.
+This project aims to produce Machine Learning models to analyse TCGA-HNSC data, ultimately to identify and rank proteins and their features, in accordance with how indicative they are of HNSCC progression.
+
+### Running code
+Files need to be extracted from Dr. Paul Yousefi's data pipeline to execute this code - https://github.com/yousefi138/tcga-hnsc.
+After extraction, these need to be upload into Colab, then the corresponding preprocessing needs to be executed. After this, the wanted FS technique can be applied and the subsequent selected features can be extracted for use in running a selected ML pipeline.
